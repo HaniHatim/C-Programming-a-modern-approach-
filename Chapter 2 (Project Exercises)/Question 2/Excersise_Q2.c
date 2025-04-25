@@ -9,7 +9,7 @@ int main(void)
     float pi = 3.14f;
     float radius = 10.0f;
 
-    formula = (fraction) * pi * radius;
+    formula = (fraction) * pi * (radius*radius*radius);
 
     printf("%.2f", formula);
 
