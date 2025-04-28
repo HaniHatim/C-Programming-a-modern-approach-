@@ -6,16 +6,16 @@
 int main(void)
 {
     float radius;
-    float volume;
+    float formula;
     float fraction = 4.0f/3.0f;
     float pi = 3.14f;
 
     printf("Please enter the radius in decimal point: ");
     scanf("%f", &radius);
 
-    formula = (fraction) * pi * (radius*radius*radius);
+    formula = (fraction) * pi * radius;
 
-    printf("%.2f", volume);
+    printf("%.2f", formula);
 
     return 0;
 }

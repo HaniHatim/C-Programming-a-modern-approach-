@@ -4,12 +4,12 @@
 
 int main(void)
 {
-    float volume;
+    float volume, formula;
     float fraction = 4.0f/3.0f;
     float pi = 3.14f;
     float radius = 10.0f;
 
-    volume = (fraction) * pi * (radius*radius*radius);
+    formula = (fraction) * pi * radius;
 
     printf("%.2f", formula);
 
