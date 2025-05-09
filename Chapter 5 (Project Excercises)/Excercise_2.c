@@ -7,7 +7,7 @@ int main(void)
     printf("Enter the time in 24:00 format: ");
     scanf("%2d:%2d", &hour, &min);
 
-    if (hour > 23 || hour < 00 && min > 60 || min < 00)
+    if (hour > 23 || hour < 00 || min > 60 || min < 00)
     {
         printf("Invlid format entered\n");
         return 0;
