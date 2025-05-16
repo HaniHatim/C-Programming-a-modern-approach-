@@ -22,16 +22,13 @@ int main(void)
     printf("Please enter two numbers: ");
     scanf("%d%d", &m, &n);
 
-    while (1)
+    while (n != 0)
     {
-    reminder = m % n;
-    m = n;
-    n = reminder;
+        reminder = m % n;
+        m = n;
+        n = reminder;
+    }
 
-    if (n == 0)
-    {
-        printf("The Greatest Common Divisor is: %d\n", m);
-        return 0;
-    }
-    }
+    printf("The Greatest Common Divisor is: %d\n", m);
+    return 0;
 }
